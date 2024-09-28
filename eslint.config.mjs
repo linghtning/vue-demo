@@ -10,6 +10,7 @@ export default antfu({
   // 保存删除未引入的代码
   // isInEditor: false,
   // 9x版本 忽略文件这种配置方式 废弃掉eslintignore
+  stylistic: true,
   ignores: [
     '*.sh',
     'node_modules',
